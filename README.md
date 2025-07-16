@@ -1,8 +1,7 @@
 # 🔢 Counter App – JavaScript
 
-A beginner-friendly **counter application** built using **HTML, CSS, and JavaScript**.  
+A beginner-friendly **counter application**.  
 This app allows users to increment, decrement, and reset a counter value in real time.
-
 ---
 
 ## 🚀 Features
@@ -21,7 +20,19 @@ This app allows users to increment, decrement, and reset a counter value in real
 3. A function `updateDisplay()` is used to refresh the displayed count whenever it changes.
 
 ---
+### 🌍 Tech Stack
 
+<div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="HTML5 logo" title="HTML5" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="CSS3 logo" title="CSS3" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="JavaScript logo" title="JavaScript" />
+  <img width="12" />
+  <img src="https://openweathermap.org/themes/openweathermap/assets/img/logo_white_cropped.png" height="40" alt="OpenWeatherMap logo" title="OpenWeatherMap API" />
+</div>
+
+---
 ### ✅ Increment Logic
 
 ```js
@@ -29,3 +40,6 @@ incBtn.addEventListener("click", () => {
     count++;
     updateDisplay();
 });
+
+---- 
+
